@@ -1,0 +1,17 @@
+{
+    "name": "Coupon",
+    "alias": "coupon",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Coupon\\Providers\\CouponServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "title": "Coupon Module",
+    "version": 0.1,
+    "compatibility": "",
+    "author": "Mohamad Ramzani"
+}

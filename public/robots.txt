@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /auth
+Disallow: /dashboard/*
+Disallow: /login*
+Disallow: /login?backUrl=*
+Disallow: *?*
+Disallow: /cart/
+Disallow: /shipping
+Disallow: /profile*
+Disallow: /payment*
+sitemap: https://fdstyle.ir/storage/sitemap.xml

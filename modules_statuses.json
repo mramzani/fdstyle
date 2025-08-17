@@ -1,0 +1,18 @@
+{
+    "Dashboard": true,
+    "Warehouse": true,
+    "Tax": true,
+    "Unit": true,
+    "Role": true,
+    "User": true,
+    "Brand": true,
+    "Category": true,
+    "Product": true,
+    "Order": true,
+    "Home": true,
+    "Front": true,
+    "Menu": true,
+    "PageBuilder": true,
+    "Reports": true,
+    "Coupon": true
+}

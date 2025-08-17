@@ -1,0 +1,23 @@
+{
+    "name": "moramzani/brand",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mohamad Ramzani",
+            "email": "moramzani1994@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Brand\\": ""
+        }
+    }
+}

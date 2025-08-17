@@ -1,0 +1,37 @@
+:root{
+    --spacing-base: 4px;
+}
+.gap-5 {
+    gap: calc(5 * var(--spacing-base))
+}
+
+.gap-y-6 {
+    row-gap: calc(6 * var(--spacing-base));
+}
+
+
+@media (min-width: 1024px) {
+    .gap-y-8-lg {
+        row-gap: calc(8 * var(--spacing-base))
+    }
+
+    .gap-lg-0 {
+        gap: calc(0 * var(--spacing-base));
+    }
+}
+.el-trust-symbol{
+    width: 135px;
+}
+@media (min-width: 1024px) {
+     .text-h4 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 2.12;
+    }
+}
+
+.text-h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.12;
+}

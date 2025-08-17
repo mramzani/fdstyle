@@ -1,0 +1,17 @@
+{
+    "name": "Warehouse",
+    "alias": "warehouse",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Warehouse\\Providers\\WarehouseServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": 0.1,
+    "author": ""
+}

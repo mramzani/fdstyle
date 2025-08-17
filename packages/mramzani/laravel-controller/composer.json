@@ -1,0 +1,33 @@
+{
+    "name" : "mramzani/laravel-controller",
+    "description": "easy create controller and view",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "create controller",
+        "mramzani",
+        "create view"
+    ],
+    "homepage": "https://github.com/mramzani",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamad Ramzani",
+            "email": "moramzani1994@gmail.com",
+            "homepage": "https://github.com/mramzani",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=8",
+        "laravel/framework": "7.*|8.*|9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mramzani\\LaravelController\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "Mramzani\\LaravelController\\" : "tests"
+    }
+}
