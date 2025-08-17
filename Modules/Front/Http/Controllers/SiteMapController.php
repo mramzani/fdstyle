@@ -33,7 +33,7 @@ class SiteMapController extends BaseController
             );
         });
 
-        $site_map->writeToFile(base_path('../public_html/storage/product_sitemap.xml'));
+        $site_map->writeToFile(base_path('storage/product_sitemap.xml'));
     }
 
     public function category()
@@ -53,7 +53,7 @@ class SiteMapController extends BaseController
             );
         });
 
-        $site_map->writeToFile(base_path('../public_html/storage/category_sitemap.xml'));
+        $site_map->writeToFile(base_path('storage/category_sitemap.xml'));
     }
 
     public function brand()
@@ -72,7 +72,7 @@ class SiteMapController extends BaseController
             ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
         );
     });
-        $site_map->writeToFile(base_path('../public_html/storage/brand_sitemap.xml'));
+        $site_map->writeToFile(base_path('storage/brand_sitemap.xml'));
     }
 
     public function all()
@@ -86,6 +86,6 @@ class SiteMapController extends BaseController
             ->add('/storage/category_sitemap.xml')
             ->add('/storage/brand_sitemap.xml');
 
-        $site_map->writeToFile(base_path('../public_html/storage/sitemap.xml'));
+        $site_map->writeToFile(base_path('storage/sitemap.xml'));
     }
 }
